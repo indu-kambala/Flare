@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+
+# Data (large log files — keep samples)
+logs/*.log
+logs/*.csv
+!logs/hdfs_sample.log
+!logs/hdfs_demo.log
+!logs/sample_labels.csv
+HDFS_v1/
+
+# Results
+results/
+results.json
+
+# MLflow
+mlflow.db
+mlruns/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+
+# Drain3 template persistence snapshots
+*.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# mypy
+.mypy_cache/
+
+# Parse cache (flare sweep)
+*.flare.cache
+
+# Personal positioning notes (local only)
+POSITIONING.md
